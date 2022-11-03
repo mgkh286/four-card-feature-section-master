@@ -1,0 +1,128 @@
+/* <style>
+<footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> */
+
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/* color variables  */
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+.font {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* general styling  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body syling  */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  background-color: var(--Very-Light-Gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 23.4rem;
+  padding: auto 0.9rem auto 0.9rem;
+}
+
+/* header styling  */
+.desc {
+  padding-top: 4.3rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.desc h1 {
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: var(--Grayish-Blue);
+}
+
+.desc h2 {
+  font-size: 1.6rem;
+  color: var(--Very-Dark-Blue);
+  margin: 0.5rem 0 0.7rem;
+}
+
+.desc p {
+  /* width: 100%; */
+  /* max-width: 34.6rem; */
+  color: var(--Grayish-Blue);
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+/* cards styling  */
+
+.cards {
+  margin-top: 4.3rem;
+}
+
+.cards .card {
+  /* width: 100%; */
+  /* max-width: 20.3rem; */
+  background-color: rgba(255, 255, 255, 0.827);
+  padding: 1.8rem 1.5rem;
+  margin: 0 auto 1.5rem auto;
+  border-radius: 10px;
+  border-top: 3px solid transparent;
+  box-shadow: 0px 5px 10px 0px rgba(216, 226, 238, 0.75);
+}
+
+.cards .card:nth-last-of-type(1) {
+  border-color: var(--Blue);
+}
+
+.cards .card:nth-last-of-type(2) {
+  border-color: var(--Orange);
+}
+
+.cards .card:nth-last-of-type(3) {
+  border-color: var(--Red);
+}
+
+.cards .card:nth-last-of-type(4) {
+  border-color: var(--Cyan);
+}
+
+.cards .card h3 {
+  color: var(--Very-Dark-Blue);
+}
+
+.cards .card p {
+  color: var(--Grayish-Blue);
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin: 0.7rem 0 2.2rem 0;
+}
+
+.cards .card img {
+  display: block;
+  margin-left: auto;
+}
