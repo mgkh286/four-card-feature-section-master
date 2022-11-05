@@ -74,7 +74,7 @@ body {
 
 .desc p {
   color: var(--Grayish-Blue);
-  /* font-size: 1rem; */
+  padding: 1rem 2rem;
   font-weight: 400;
 }
 
