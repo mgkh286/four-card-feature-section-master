@@ -77,6 +77,8 @@ i will focus on using relative units vh or vw it helps me to write short and cle
 
 i will focus on specificity using class or id selectors .
 
+i will focus on  using pseudo  selectors .
+
 i will focus on  using color variables  .
 
 i will focus on  using background properties .
@@ -88,7 +90,7 @@ i will focus on  mobile first design .
 - [w3schools 1](https://www.w3schools.com/css/css3_flexbox.asp) - This helped me for centering elements . I really liked this pattern and will use it going forward.
 - [w3schools 2](https://www.w3schools.com/cssref/css_units.asp) - This is an amazing article which helped me finally understand Relative length units . I'd recommend it to anyone still learning this concept.
 - [mdn 3](https://developer.mozilla.org/en-US/docs/Web/CSS/background) - This helped me for dealing with backgroundg elements . I really liked this pattern and will use it going forward.
-- [csstricks 4](https://developer.mozilla.org/en-US/docs/Web/CSS/background) - This helped me for dealing with positioning layout elements . I really liked this pattern and will use it going forward.
+- [csstricks 4](https://www.w3schools.com/css/css_pseudo_classes.asp) - This helped me for dealing with pseudo classes elements . I really liked this pattern and will use it going forward.
 
 ## Author
 
