@@ -45,9 +45,9 @@ body {
   flex-direction: column;
 }
 
-.container {
-  /* width: 23.4rem; */
-}
+/* .container {
+  width: 23.4rem;
+} */
 
 /* header styling  */
 .desc {
@@ -133,5 +133,49 @@ body {
   justify-self: right;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 800px) {
+  .container {
+    padding: 0.8rem 3rem 1rem 2.5rem;
+  }
+
+  .desc {
+    padding-top: 1rem;
+  }
+
+  .desc h2 {
+    margin: 0;
+  }
+
+  .desc p {
+    width: 430px;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+  }
+
+  .cards {
+    flex-direction: row;
+    margin-top: 1rem;
+    padding: 0 0 0 3rem;
+  }
+
+  .cards .card {
+    padding: 1rem 0.8rem;
+    margin: 0.8rem;
+  }
+
+  .card-1 {
+    display: flex;
+    flex: 1;
+  }
+
+  .card-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .card-3 {
+    display: flex;
+    flex: 1;
+  }
 }
