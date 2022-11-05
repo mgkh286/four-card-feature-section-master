@@ -42,21 +42,30 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 ### What I learned
 
 ```html
- <div class="rating rating-3">
-            <div class="img-star">
-              <img src="./images/icon-star.svg" alt="" />
-              <img src="./images/icon-star.svg" alt="" />
-              <img src="./images/icon-star.svg" alt="" />
-              <img src="./images/icon-star.svg" alt="" />
-              <img src="./images/icon-star.svg" alt="" />
+<section class="card">
+            <h3>Supervisor</h3>
+            <p>Monitors activity to identify project roadblocks</p>
+            <div class="icon">
+              <img src="./images/icon-supervisor.svg" alt="Supervisor" />
             </div>
+          </section>
 ```
 
 ```css
-.bottom-desc {
-  background-image: url(./images/bg-pattern-bottom-mobile.svg);
-  display: flex;
-  flex-direction: column;
+.cards .card:nth-last-of-type(1) {
+  border-color: var(--Blue);
+}
+
+.cards .card:nth-last-of-type(2) {
+  border-color: var(--Orange);
+}
+
+.cards .card:nth-last-of-type(3) {
+  border-color: var(--Red);
+}
+
+.cards .card:nth-last-of-type(4) {
+  border-color: var(--Cyan);
 }
 ```
 
